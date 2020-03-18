@@ -1,0 +1,65 @@
+body
+{
+    background-color: #232323;
+    margin: 0;
+}
+
+.square /*the . is for the class*/
+{
+    width: 30%;                /*similar to data dictionary in data structures key value pair*/
+    background-color: red;
+    padding-bottom: 30%;
+    float: left; 
+    margin: 1.6%;
+    border-radius: 20%;
+    background: 0.7s;
+}
+
+#container /* # access something by its id*/
+{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    font-style: oblique;
+    font-stretch: semi-expanded;
+    text-transform: uppercase;
+
+}
+
+#resetButton
+{
+    border: none;
+    background-color: white;
+    color: steelblue;
+    height: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+#resetButton:hover
+{
+    background-color: steelblue;
+    color: white;
+}
+
+#bar
+{
+    height: 25px;
+    background-color: white;
+    text-align: center;
+    color: green;
+    font-weight: 700;
+}
+
+#target
+{
+    font-size: 150%;
+}
